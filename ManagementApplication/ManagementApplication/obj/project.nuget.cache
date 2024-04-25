@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "e4s7NvEuIliBf2hBPxCgpR0tihk/OgoI91Z8e4pu/O9+kq1+eooPDe4UxRdFJX51STTDxjslBN3e72Na2S6e1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ManagementApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\salahbensarar\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
+    "C:\\Users\\salahbensarar\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
+    "C:\\Users\\salahbensarar\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
