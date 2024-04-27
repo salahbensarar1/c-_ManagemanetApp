@@ -13,25 +13,35 @@
             <ColumnDefinition Width ="400" ></ColumnDefinition>
             <ColumnDefinition Width ="400"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Grid.Column="0" Source="C:\Users\saben\OneDrive\Desktop\SalahBenSarar_C#/Logo_login.png"></Image>
+        
+        <Image Grid.Column="0" Source="C:\Users\salahbensarar\Desktop\SalahBenSarar_C#/Logo_login.png"></Image>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Grid.Column="1">
             <TextBlock Text="Register Page" FontSize="36" Width="237"/>
             <Separator Height="10"></Separator>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Account" Width="30" Height="50" Cursor="Cross"/>
                 <Border CornerRadius="25 25 25 25" Width="300" Height="50" Background="MediumPurple">
-                    <TextBlock Text="" Width="250" Height="50" Background="MediumPurple"/>
+                    <TextBox x:Name="username"  Width="250" Height="50" Background="MediumPurple"/>
                 </Border>
             </StackPanel>
             <Separator Height="10"></Separator>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Password" Width="30" Height="50" Cursor="Cross"/>
                 <Border CornerRadius="25 25 25 25" Width="300" Height="50" Background="MediumPurple">
-                    <TextBlock Text="" Width="250" Height="50" Background="MediumPurple"/>
+                    <PasswordBox x:Name="password"  Width="250" Height="50" Background="MediumPurple"/>
                 </Border>
             </StackPanel>
+            <Separator Height="50"></Separator>
+            <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="200" Height="50" CornerRadius="25">
+                <Border.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                    </Style>
+                </Border.Resources>
+                <Button x:Name="Register_Butt" Click="Register_Butt_Click" Content="Register" Width="175" Height="40" Background="MediumPurple"/>
+            </Border>
 
-    
         </StackPanel>
     </Grid>
 </Window>

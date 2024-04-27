@@ -20,5 +20,19 @@ namespace ManagementApplication
         {
             InitializeComponent();
         }
+
+
+        private void Login_Butt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Register r1 = new Register();
+            this.Close();
+            r1.Show();  
+
+        }
     }
 }

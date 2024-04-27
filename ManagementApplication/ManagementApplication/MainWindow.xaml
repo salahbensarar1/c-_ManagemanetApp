@@ -38,6 +38,38 @@
                     <TextBlock Text="" Width="250" Height="50" Background="MediumPurple"/>
                 </Border>
             </StackPanel>
+            <Separator Height="50"></Separator>
+            <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="200" Height="50" CornerRadius="25">
+                <Border.Resources>
+
+                    <Style TargetType="Button">
+
+                        <Setter Property="Foreground" Value="white"/>
+
+                        <Setter Property="BorderThickness" Value="0"/>
+
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Border.Resources>
+                <Button x:Name="Login_Butt" Click="Login_Butt_Click" Content="Login" Width="175" Height="40" Background="MediumPurple"/>
+            </Border>
+            <Separator Height="10"></Separator>
+           
+            <Button Click="Button_Click" Cursor="Hand">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock Text="Click for registration!" TextAlignment="Center" Foreground="Black"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
 
 
         </StackPanel>
