@@ -58,3 +58,17 @@ C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\Management
 C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\ManagementApplication.dll
 C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\ManagementApplication.genruntimeconfig.cache
 C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\ref\ManagementApplication.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\HomePageManagement.g.cs
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\HomePageManagement.baml
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\Choice.g.cs
+C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\obj\Debug\net8.0-windows\Choice.baml

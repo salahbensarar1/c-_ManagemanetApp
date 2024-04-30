@@ -7,15 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Choice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\BillingsListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CategoriesListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CustomersListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemsListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Choice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomePageManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\BillingsListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CategoriesListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CustomersListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ItemsListView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

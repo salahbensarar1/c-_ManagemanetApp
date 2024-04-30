@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="ManagementApplication.Views.ItemsListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid>
+        <!-- Header -->
+        <Border Background="LightGray" Padding="5" Margin="5">
+            <TextBlock Text="Items List" FontWeight="Bold" FontSize="16"/>
+        </Border>
+
+        <!-- Content Area -->
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
+            <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}">
+                <!-- Define ListView Columns -->
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Item Code" DisplayMemberBinding="{Binding ItCode}" Width="100"/>
+                        <GridViewColumn Header="Item Name" DisplayMemberBinding="{Binding ItName}" Width="150"/>
+                        <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category.CatName}" Width="150"/>
+                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding ItPrice}" Width="100"/>
+                        <GridViewColumn Header="Stock" DisplayMemberBinding="{Binding ItStock}" Width="100"/>
+                        <GridViewColumn Header="Manufacturer" DisplayMemberBinding="{Binding ItManufacturer}" Width="150"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5">
+            <Button  Content="Add" Command="{Binding AddCommand}" Margin="5"/>
+            <Button Content="Edit" Command="{Binding EditCommand}" CommandParameter="{Binding SelectedItem}" Margin="5"/>
+            <Button Content="Delete" Command="{Binding DeleteCommand}" CommandParameter="{Binding SelectedItem}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

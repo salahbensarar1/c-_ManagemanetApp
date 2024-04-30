@@ -14,7 +14,7 @@
             <ColumnDefinition Width ="400"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <Image Grid.Column="0" Source="C:\Users\salahbensarar\Desktop\SalahBenSarar_C#/Logo_login.png"></Image>
+        <Image Grid.Column="0" Source="Assets/Logo_login.png"></Image>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Grid.Column="1">
             <TextBlock Text="Register Page" FontSize="36" Width="237"/>
             <Separator Height="10"></Separator>
@@ -41,7 +41,14 @@
                 </Border.Resources>
                 <Button x:Name="Register_Butt" Click="Register_Butt_Click" Content="Register" Width="175" Height="40" Background="MediumPurple"/>
             </Border>
-
+            <Separator Height="15"></Separator>
+                <Button Click="Button_Click" Cursor="Hand">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock Text="Click for Working!" TextAlignment="Center" Foreground="MediumPurple" FontFamily="Microsoft JhengHei Light" FontSize="16"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
         </StackPanel>
     </Grid>
 </Window>

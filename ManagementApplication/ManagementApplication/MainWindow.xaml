@@ -21,21 +21,21 @@
             <ColumnDefinition Width ="400" ></ColumnDefinition>
             <ColumnDefinition Width ="400"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Grid.Column="0" Source="C:\Users\salahbensarar\Desktop\SalahBenSarar_C#/Logo_login.png"></Image>
+        <Image Grid.Column="0" Source="/Assets/Logo_login.png"></Image>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Grid.Column="1">
             <TextBlock Text="Login Page" FontSize="36" Width="237"/>
             <Separator Height="10"></Separator>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Account" Width="30" Height="50" Cursor="Cross"/>
                 <Border CornerRadius="25 25 25 25" Width="300" Height="50" Background="MediumPurple">
-                    <TextBlock Text="" Width="250" Height="50" Background="MediumPurple"/>
+                    <TextBox  x:Name="username" Text="" Width="250" Height="50" Background="MediumPurple"/>
                 </Border>
             </StackPanel>
             <Separator Height="10"></Separator>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Password" Width="30" Height="50" Cursor="Cross"/>
                 <Border CornerRadius="25 25 25 25" Width="300" Height="50" Background="MediumPurple">
-                    <TextBlock Text="" Width="250" Height="50" Background="MediumPurple"/>
+                    <PasswordBox x:Name="password" Width="250" Height="50" Background="MediumPurple"/>
                 </Border>
             </StackPanel>
             <Separator Height="50"></Separator>
@@ -63,13 +63,7 @@
             </Border>
             <Separator Height="10"></Separator>
            
-            <Button Click="Button_Click" Cursor="Hand">
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <TextBlock Text="Click for registration!" TextAlignment="Center" Foreground="Black"/>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
+          
 
 
         </StackPanel>

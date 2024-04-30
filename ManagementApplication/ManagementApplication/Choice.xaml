@@ -1,0 +1,91 @@
+﻿<Window x:Class="ManagementApplication.Choice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagementApplication"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+ 
+        FontFamily="{DynamicResource MaterialDesignFont}"
+       
+        Title="Choice" Height="450" Width="800">
+    <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="40*"  ></ColumnDefinition>
+                <ColumnDefinition Width ="40*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Source="Assets/Logo_login.png"></Image>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Grid.Column="1">
+            <TextBlock HorizontalAlignment="Center" FontSize="36" Width="235"><Run Language="fr-ma" Text="Pick One !" FontFamily="Gadugi"/></TextBlock>
+            <Separator Height="10"></Separator>
+            <StackPanel Orientation="Horizontal" >
+                <materialDesign:PackIcon Kind="Register" Width="30" Height="50" Cursor="Cross"/> <Separator Width="20"></Separator>
+                <Separator Width="20"></Separator>
+                <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="200" Height="50" CornerRadius="25">
+                    <Border.Resources>
+
+                        <Style TargetType="Button">
+
+                            <Setter Property="Foreground" Value="black"/>
+
+                            <Setter Property="BorderThickness" Value="0"/>
+
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Border.Resources>
+                    <Button x:Name="Register_From_Choice_page" Click="Register_From_Choice_page_Click"  Content="Register an employee" Width="175" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                </Border>
+
+            </StackPanel>
+            <Separator Height="10"></Separator>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Work" Width="30" Height="50" Cursor="Cross"/>
+
+                
+                <Separator Width="40"></Separator>
+                    <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="200" Height="50" CornerRadius="25">
+                    <Border.Resources>
+
+                        <Style TargetType="Button">
+
+                            <Setter Property="Foreground" Value="black"/>
+
+                            <Setter Property="BorderThickness" Value="0"/>
+
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Border.Resources>
+                    <Button x:Name="Go_ToManage" Click="Go_ToManage_Click"  Content="Start working" Width="175" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                    </Border>
+                
+            </StackPanel>
+          
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Window>

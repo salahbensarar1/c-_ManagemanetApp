@@ -3,32 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\views\\billingslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\views\\billingslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\homepagemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\homepagemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\viewmodels\\billingslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\viewmodels\\billingslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\views\\categorieslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\views\\categorieslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\views\\itemslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\views\\itemslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\views\\customerslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\views\\customerslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\views\\itemslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\views\\itemslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\managementapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\managementapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\viewmodels\\itemslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\viewmodels\\itemslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\models\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\models\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|c:\\users\\salahbensarar\\desktop\\salahbensarar_c#\\managementapplication\\managementapplication\\homepagemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\homepagemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\choice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\choice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\choice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\choice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\managementapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F33DF5-149B-46C8-880C-84FEF4977E81}|ManagementApplication\\ManagementApplication.csproj|solutionrelative:managementapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,74 +94,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "ManagementApplication\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml.cs",
-              "RelativeToolTip": "ManagementApplication\\Register.xaml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwCoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:11:53.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ManagementApplication\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ManagementApplication\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:11:38.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml",
-              "RelativeDocumentMoniker": "ManagementApplication\\Register.xaml",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml",
-              "RelativeToolTip": "ManagementApplication\\Register.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-25T10:29:00.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ManagementApplication\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml",
-              "RelativeToolTip": "ManagementApplication\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-25T10:29:01.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\App.xaml.cs",
-              "RelativeDocumentMoniker": "ManagementApplication\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\App.xaml.cs",
-              "RelativeToolTip": "ManagementApplication\\App.xaml.cs",
+              "Title": "BillingsListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ViewModels\\BillingsListViewModel.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\ViewModels\\BillingsListViewModel.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ViewModels\\BillingsListViewModel.cs",
+              "RelativeToolTip": "ManagementApplication\\ViewModels\\BillingsListViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:11:43.9Z",
+              "WhenOpened": "2024-04-30T10:43:18.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Customer.cs",
+              "RelativeToolTip": "ManagementApplication\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:36:40.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Item.cs",
+              "RelativeToolTip": "ManagementApplication\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:31:52.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesListView.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\CategoriesListView.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Views\\CategoriesListView.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\CategoriesListView.xaml",
+              "RelativeToolTip": "ManagementApplication\\Views\\CategoriesListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T10:29:02.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillingsListView.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\BillingsListView.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Views\\BillingsListView.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\BillingsListView.xaml",
+              "RelativeToolTip": "ManagementApplication\\Views\\BillingsListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T09:55:08.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Category.cs",
+              "RelativeToolTip": "ManagementApplication\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T07:37:13.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Billing.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Billing.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Models\\Billing.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\Billing.cs",
+              "RelativeToolTip": "ManagementApplication\\Models\\Billing.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvyIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T07:41:45.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePageManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\HomePageManagement.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\HomePageManagement.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\HomePageManagement.xaml",
+              "RelativeToolTip": "ManagementApplication\\HomePageManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T14:42:48.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemsListView.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\ItemsListView.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Views\\ItemsListView.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\ItemsListView.xaml",
+              "RelativeToolTip": "ManagementApplication\\Views\\ItemsListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T09:51:29.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomersListView.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\CustomersListView.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Views\\CustomersListView.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\CustomersListView.xaml",
+              "RelativeToolTip": "ManagementApplication\\Views\\CustomersListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T09:53:45.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemsListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\ItemsListView.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Views\\ItemsListView.xaml.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Views\\ItemsListView.xaml.cs",
+              "RelativeToolTip": "ManagementApplication\\Views\\ItemsListView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:59:55.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ManagementApplication.csproj",
               "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ManagementApplication.csproj",
               "RelativeDocumentMoniker": "ManagementApplication\\ManagementApplication.csproj",
@@ -118,14 +249,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\App.xaml",
-              "RelativeDocumentMoniker": "ManagementApplication\\App.xaml",
-              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\App.xaml",
-              "RelativeToolTip": "ManagementApplication\\App.xaml",
+              "DocumentIndex": 12,
+              "Title": "ItemsListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ViewModels\\ItemsListViewModel.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\ViewModels\\ItemsListViewModel.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\ViewModels\\ItemsListViewModel.cs",
+              "RelativeToolTip": "ManagementApplication\\ViewModels\\ItemsListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:56:59.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\ShopDbContext.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Models\\ShopDbContext.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Models\\ShopDbContext.cs",
+              "RelativeToolTip": "ManagementApplication\\Models\\ShopDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBwAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T07:32:55.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml",
+              "RelativeToolTip": "ManagementApplication\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-25T10:29:01.115Z",
+              "WhenOpened": "2024-04-25T10:29:01.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePageManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\HomePageManagement.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\HomePageManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\HomePageManagement.xaml.cs",
+              "RelativeToolTip": "ManagementApplication\\HomePageManagement.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:46:41.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Choice.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Choice.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Choice.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Choice.xaml",
+              "RelativeToolTip": "ManagementApplication\\Choice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T08:02:13.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml.cs",
+              "RelativeToolTip": "ManagementApplication\\Register.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:11:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml",
+              "RelativeDocumentMoniker": "ManagementApplication\\Register.xaml",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Register.xaml",
+              "RelativeToolTip": "ManagementApplication\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-25T10:29:00.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Choice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Choice.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\Choice.xaml.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\Choice.xaml.cs",
+              "RelativeToolTip": "ManagementApplication\\Choice.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:18:09.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementApplication\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\salahbensarar\\Desktop\\SalahBenSarar_C#\\ManagementApplication\\ManagementApplication\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManagementApplication\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:23:06.622Z",
               "EditorCaption": ""
             }
           ]

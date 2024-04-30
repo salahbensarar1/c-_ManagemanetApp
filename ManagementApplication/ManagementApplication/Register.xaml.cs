@@ -53,5 +53,12 @@ namespace ManagementApplication
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            HomePageManagement H1 = new HomePageManagement();  
+            this.Close();
+            H1.Show();
+        }
     }
 }
