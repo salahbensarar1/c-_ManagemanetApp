@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\salahbensarar\Desktop\SalahBenSarar_C#\ManagementApplication\ManagementApplication\App.xaml
-41955628345
+81614852542
 
-12-1323553794
-213571613660
-Choice.xaml;HomePageManagement.xaml;MainWindow.xaml;Register.xaml;
+201411690823
+255641300355
+Choice.xaml;HomePageManagement.xaml;MainWindow.xaml;Register.xaml;Views\BillingsListView.xaml;Views\CategoriesListView.xaml;Views\CustomersListView.xaml;Views\ItemsListView.xaml;
 
-False
+True
 

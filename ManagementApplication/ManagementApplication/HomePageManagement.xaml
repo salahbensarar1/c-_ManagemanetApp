@@ -2,6 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ManagementApplication" 
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -58,7 +60,7 @@
                             </Setter>
                         </Style>
                     </Border.Resources>
-                    <Button   Content="Items" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                    <Button x:Name="Items_Butt" Click="Items_Butt_Click" Content="Items"  Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
                 </Border>
 
                 <Separator Height="15">
@@ -84,7 +86,7 @@
                             </Setter>
                         </Style>
                     </Border.Resources>
-                    <Button   Content="Category" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                    <Button x:Name="Category_Butt" Click="Category_Butt_Click" Content="Category" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
                 </Border>
                 
                 <Separator Height="15">
@@ -110,7 +112,7 @@
                             </Setter>
                         </Style>
                     </Border.Resources>
-                    <Button   Content="Customers" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                    <Button  x:Name="Customer_Butt" Click="Customer_Butt_Click"  Content="Customers" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
                 </Border>
 
                 <Separator Height="15">
@@ -136,7 +138,7 @@
                             </Setter>
                         </Style>
                     </Border.Resources>
-                    <Button   Content="Billing" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+                    <Button  x:Name="Billing_Butt" Click="Billing_Butt_Click"  Content="Billing" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
                 </Border>
 
             </StackPanel>

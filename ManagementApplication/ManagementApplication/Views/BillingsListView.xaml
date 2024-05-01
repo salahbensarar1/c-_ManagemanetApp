@@ -4,10 +4,27 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             d:DesignHeight="350" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800">
 
     <Grid>
-        <!-- Buttons -->
+
+        <Border Background="LightGray" Padding="5" Margin="5">
+            <TextBlock Text="Billings List" FontWeight="Bold" FontSize="16"/>
+        </Border>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
+            <ListView ItemsSource="{Binding Billings}" SelectedItem="{Binding SelectedBilling}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Billing Code" DisplayMemberBinding="{Binding BillCode}" Width="100"/>
+                        <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding Customer.CustName}" Width="150"/>
+                        <GridViewColumn Header="Total Amount" DisplayMemberBinding="{Binding TotalAmount}" Width="150"/>
+                        <!-- Additional columns here -->
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+
         <Grid Margin="5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -16,29 +33,9 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Button Content="Add" Command="{Binding AddBillingCommand}" Margin="10" Grid.Column="1"/>
-            <Button Content="Edit" Command="{Binding EditBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="10" Grid.Column="2"/>
-            <Button Content="Delete" Command="{Binding DeleteBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="10" Grid.Column="3"/>
+            <Button Content="Add" Command="{Binding AddBillingCommand}" Margin="31,337,583,49"/>
+            <Button Content="Edit" Command="{Binding EditBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="307,337,307,49"/>
+            <Button Content="Delete" Command="{Binding DeleteBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="588,337,26,49"/>
         </Grid>
-
-        <!-- Header -->
-        <Border Background="LightGray" Padding="5" Margin="5" VerticalAlignment="Bottom">
-            <TextBlock Text="Billings List" FontWeight="Bold" FontSize="16"/>
-        </Border>
-        <Separator Height="20" VerticalAlignment="Bottom"></Separator>
-
-        <!-- Content Area -->
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
-            <ListView ItemsSource="{Binding Billings}" SelectedItem="{Binding SelectedBilling}">
-                <!-- Define ListView Columns -->
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Billing Code" DisplayMemberBinding="{Binding BillCode}" Width="100"/>
-                        <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding Customer.CustName}" Width="150"/>
-                        <GridViewColumn Header="Total Amount" DisplayMemberBinding="{Binding TotalAmount}" Width="150"/>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
     </Grid>
 </UserControl>

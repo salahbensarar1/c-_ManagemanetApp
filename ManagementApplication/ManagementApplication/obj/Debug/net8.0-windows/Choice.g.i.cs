@@ -72,7 +72,7 @@ namespace ManagementApplication {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ManagementApplication;V1.0.0.0;component/choice.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ManagementApplication;component/choice.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Choice.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
