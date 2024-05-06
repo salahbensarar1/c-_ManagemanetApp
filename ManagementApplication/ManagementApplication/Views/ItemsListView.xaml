@@ -5,35 +5,49 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800">
-
     <Grid>
-        <!-- Header -->
-        <Border Background="LightGray" Padding="5" Margin="5">
-            <TextBlock Text="Items List" FontWeight="Bold" FontSize="16"/>
-        </Border>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <!-- Content Area -->
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
-            <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}">
-                <!-- Define ListView Columns -->
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Item Code" DisplayMemberBinding="{Binding ItCode}" Width="100"/>
-                        <GridViewColumn Header="Item Name" DisplayMemberBinding="{Binding ItName}" Width="150"/>
-                        <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category.CatName}" Width="150"/>
-                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding ItPrice}" Width="100"/>
-                        <GridViewColumn Header="Stock" DisplayMemberBinding="{Binding ItStock}" Width="100"/>
-                        <GridViewColumn Header="Manufacturer" DisplayMemberBinding="{Binding ItManufacturer}" Width="150"/>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
-
-        <!-- Buttons -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5">
-            <Button  Content="Add" Command="{Binding AddCommand}" Margin="5"/>
-            <Button Content="Edit" Command="{Binding EditCommand}" CommandParameter="{Binding SelectedItem}" Margin="5"/>
-            <Button Content="Delete" Command="{Binding DeleteCommand}" CommandParameter="{Binding SelectedItem}" Margin="5"/>
+        <!-- Item Code -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Item Code:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtItemCode" Width="200" Margin="5"/>
         </StackPanel>
+
+        <!-- Item Name -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Item Name:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtItemName" Width="200" Margin="5"/>
+        </StackPanel>
+
+        <!-- Category -->
+        <ComboBox x:Name="cmbItems" Width="200" Margin="10"/>
+
+        <!-- Price -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Price:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtPrice" Width="200" Margin="5"/>
+        </StackPanel>
+
+        <!-- Stock -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Stock:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtStock" Width="200" Margin="5"/>
+        </StackPanel>
+        <Button x:Name="Add_Item" Content="Add Item" Grid.Row="2" HorizontalAlignment="Right" Margin="10" Click="Add_Item_Click" Width="70" Height="27"/>
+        <Button x:Name="Delete_Item" Content="Delete Item" Grid.Row="3" HorizontalAlignment="Right" Margin="10" Click="Delete_Item_Click" Width="70" Height="27"/>
+        <Button x:Name="Edit_Item" Content="Edit Item" Grid.Row="4" HorizontalAlignment="Right" Margin="10" Click="Edit_Item_Click" Width="70" Height="27"/>
+        
+        <!-- DataGrid for displaying item records -->
+        <DataGrid x:Name="dgItems" Grid.Row="5" AutoGenerateColumns="True" Margin="10" CanUserAddRows="False" SelectionChanged="dgItems_SelectionChanged">
+            
+        </DataGrid>
     </Grid>
 </UserControl>

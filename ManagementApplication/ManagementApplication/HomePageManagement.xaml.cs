@@ -26,26 +26,22 @@ namespace ManagementApplication
         }
         private void Items_Butt_Click(object sender, RoutedEventArgs e)
         {
-            ItemsListView itemsListView = new ItemsListView();
-            this.Content = itemsListView;
+            MainContentFrame.Navigate(new Uri("Views/ItemsListView.xaml", UriKind.Relative));
         }
 
         private void Category_Butt_Click(object sender, RoutedEventArgs e)
         {
-            CategoriesListView categoriesListView = new CategoriesListView();
-            this.Content = categoriesListView;
+            MainContentFrame.Navigate(new Uri("Views/CategoriesListView.xaml", UriKind.Relative));
         }
 
         private void Customer_Butt_Click(object sender, RoutedEventArgs e)
         {
-            CustomersListView customersListView = new CustomersListView();
-            this.Content = customersListView;
+            MainContentFrame.Navigate(new Uri("Views/CustomersListView.xaml", UriKind.Relative));
         }
 
         private void Billing_Butt_Click(object sender, RoutedEventArgs e)
         {
-            BillingsListView billingsListView = new BillingsListView();
-            this.Content = billingsListView;
+            MainContentFrame.Navigate(new Uri("Views/BillingsListView.xaml", UriKind.Relative));
         }
     }
 }

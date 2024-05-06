@@ -62,10 +62,7 @@
                 <Button x:Name="Login_Butt" Click="Login_Butt_Click" Content="Login" Width="175" Height="40" Background="MediumPurple"/>
             </Border>
             <Separator Height="10"></Separator>
-           
-          
-
-
+  
         </StackPanel>
     </Grid>
 </Window>

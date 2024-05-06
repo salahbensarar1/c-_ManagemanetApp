@@ -5,39 +5,43 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800">
-
     <Grid>
-        <!-- Header -->
-        <Border Background="LightGray" Padding="5" Margin="5">
-            <TextBlock Text="Customers List" FontWeight="Bold" FontSize="16"/>
-        </Border>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <!-- Content Area -->
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
-            <ListView ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}">
-                <!-- Define ListView Columns -->
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Customer Code" DisplayMemberBinding="{Binding CustCode}" Width="100"/>
-                        <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding CustName}" Width="150"/>
-                        <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="150"/>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
+        <!-- Customer Code -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Customer Code:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtCustomerCode" Width="200" Margin="5"/>
+        </StackPanel>
 
-        <!-- Buttons -->
-        <Grid Margin="5">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
+        <!-- Customer Name -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Customer Name:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtCustomerName" Width="200" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Customer Gender:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtCustomergender" Width="200" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Customer Phone:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtCustomerphone" Width="200" Margin="5"/>
+        </StackPanel>
 
-            <Button Content="Add" Command="{Binding AddCustomerCommand}" Margin="31,337,583,49"/>
-            <Button Content="Edit" Command="{Binding EditCustomerCommand}" CommandParameter="{Binding SelectedCustomer}" Margin="307,337,307,49"/>
-            <Button Content="Delete" Command="{Binding DeleteCustomerCommand}" CommandParameter="{Binding SelectedCustomer}" Margin="588,337,26,49"/>
-        </Grid>
+        <!-- Add Customer Button -->
+        <Button x:Name="Add_customer" Content="Add Customer" Grid.Row="1" HorizontalAlignment="Right" Margin="10" Click="Add_customer_Click" Width="70" Height="27"/>
+        <Button x:Name="Delete_Customer" Content="Delete Customer" Grid.Row="2" HorizontalAlignment="Right" Margin="10" Click="Delete_Customer_Click" Width="70" Height="27"/>
+        <Button x:Name="Edit_Customer" Content="Edit Customer" Grid.Row="3" HorizontalAlignment="Right" Margin="10" Click="Edit_Customer_Click" Width="70" Height="27"/>
+        <!-- DataGrid for displaying customer records -->
+        <DataGrid x:Name="dgCustomers" Grid.Row="4" AutoGenerateColumns="True" Margin="10" CanUserAddRows="False" SelectionChanged="dgCustomers_SelectionChanged">
+            
+        </DataGrid>
     </Grid>
 </UserControl>

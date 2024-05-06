@@ -8,7 +8,7 @@
         xmlns:local="clr-namespace:ManagementApplication" 
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="HomePageManagement" Height="550" Width="1000">
+        Title="HomePageManagement" Height="650" Width="1200">
     <DockPanel Margin="5">
 
         <Grid>
@@ -35,11 +35,11 @@
                 <Image Width="180" Height="125" Source="Assets/Logo_login.png" Stretch="Uniform" />
 
             </Border>
-            
+
 
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical" Width="160" Height="310" Margin="0,176,0,0">
-                
-                
+
+
                 <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="120" Height="50" CornerRadius="25">
                     <Border.Resources>
 
@@ -65,7 +65,7 @@
 
                 <Separator Height="15">
                 </Separator>
-                
+
                 <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="120" Height="50" CornerRadius="25">
                     <Border.Resources>
 
@@ -88,10 +88,10 @@
                     </Border.Resources>
                     <Button x:Name="Category_Butt" Click="Category_Butt_Click" Content="Category" Width="110" Height="40" Background="MediumPurple" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
                 </Border>
-                
+
                 <Separator Height="15">
                 </Separator>
-                
+
                 <Border BorderThickness="1" BorderBrush="White" Background="MediumPurple" Width="120" Height="50" CornerRadius="25">
                     <Border.Resources>
 
@@ -142,7 +142,7 @@
                 </Border>
 
             </StackPanel>
+            <Frame x:Name="MainContentFrame" Grid.Column="1"/>
         </Grid>
-
     </DockPanel>
 </Window>

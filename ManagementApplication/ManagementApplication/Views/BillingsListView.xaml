@@ -1,41 +1,50 @@
 ﻿<UserControl x:Class="ManagementApplication.Views.BillingsListView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ManagementApplication.Views"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             d:DesignHeight="450" d:DesignWidth="800">
-
+             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="793*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="205*"/>
+            <RowDefinition Height="101*"/>
+        </Grid.RowDefinitions>
 
-        <Border Background="LightGray" Padding="5" Margin="5">
-            <TextBlock Text="Billings List" FontWeight="Bold" FontSize="16"/>
-        </Border>
+        <!-- Billing Code -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="3,10,10,10" Background="white" Grid.Column="2">
+            <Label Content="Billing Code:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtBillingCode" IsEnabled="False" Width="200" Margin="5"/>
+        </StackPanel>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
-            <ListView ItemsSource="{Binding Billings}" SelectedItem="{Binding SelectedBilling}">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Billing Code" DisplayMemberBinding="{Binding BillCode}" Width="100"/>
-                        <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding Customer.CustName}" Width="150"/>
-                        <GridViewColumn Header="Total Amount" DisplayMemberBinding="{Binding TotalAmount}" Width="150"/>
-                        <!-- Additional columns here -->
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
+        <!-- Customer Name -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="3,10,10,10" Background="white" Grid.Column="2" >
+            <Label Content="Customer Name:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtCustomerName" Width="200" Margin="5"/>
+        </StackPanel>
 
-        <Grid Margin="5">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
+        <!-- Total Amount -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="3,10,10,10" Background="white" Grid.Column="2">
+            <Label Content="Total Amount:" VerticalAlignment="Center" Background="white"/>
+            <TextBox x:Name="txtTotalAmount" Width="200" Margin="5"/>
+        </StackPanel>
 
-            <Button Content="Add" Command="{Binding AddBillingCommand}" Margin="31,337,583,49"/>
-            <Button Content="Edit" Command="{Binding EditBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="307,337,307,49"/>
-            <Button Content="Delete" Command="{Binding DeleteBillingCommand}" CommandParameter="{Binding SelectedBilling}" Margin="588,337,26,49"/>
-        </Grid>
+        <!-- Add Billing Button -->
+        <Button x:Name="Add_Billing" Content="Add Billing" Grid.Row="0" HorizontalAlignment="Left" Margin="721,10,0,10" Click="Button_Click" Grid.Column="2"  Width="70" Height="27"/>
+        <Button x:Name="Delete_Billing" Content="Delete Billing" Grid.Row="1" HorizontalAlignment="Left"  Margin="721,10,0,10" Click="Delete_Billing_Click" Grid.Column="2" Width="70" Height="27"/>
+        <Button x:Name="Edit_Billing" Content="Edit Billing" Grid.Row="2" HorizontalAlignment="left"  Margin="721,10,0,10" Click="Edit_Billing_Click" Width="70" Grid.Column="2" Height="27"/>
+        <!-- DataGrid for displaying billing records -->
+        <DataGrid x:Name="dgBillings" Grid.Row="3" AutoGenerateColumns="True" Margin="3,10,10,10" CanUserAddRows="False" SelectionChanged="dgBillings_SelectionChanged" Grid.RowSpan="2" Grid.Column="2">
+         
+        </DataGrid>
     </Grid>
 </UserControl>

@@ -5,38 +5,36 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800">
-
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <Border Background="LightGray" Padding="5" Margin="5">
-            <TextBlock Text="Categories List" FontWeight="Bold" FontSize="16"/>
-        </Border>
+        <!-- Category Code -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Category Code:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtCategoryCode" Width="200" Margin="5"/>
+        </StackPanel>
 
+        <!-- Category Name -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Background="White">
+            <Label Content="Category Name:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtCategoryName" Width="200" Margin="5" TextChanged="txtCategoryName_TextChanged"/>
+        </StackPanel>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="5">
-            <ListView ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}">
+        <!-- Add Category Button -->
+        <Button x:Name="Add_Category" Content="Add Category" Grid.Row="0" HorizontalAlignment="Right" Margin="10" Click="Add_Category_Click"/>
+        <Button x:Name="Delete_Category" Content="Delete Category" Grid.Row="1" HorizontalAlignment="Right" Margin="10" Click="Delete_Category_Click" Width="70" Height="27"/>
+        <Button x:Name="Edit_Category" Content="Edit Category" Grid.Row="2" HorizontalAlignment="Right" Margin="10" Click="Edit_Category_Click" Width="70" Height="27"/>
 
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Category Code" DisplayMemberBinding="{Binding CatCode}" Width="100"/>
-                        <GridViewColumn Header="Category Name" DisplayMemberBinding="{Binding CatName}" Width="150"/>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
-
-
-        <Grid Margin="5">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-
-            <Button Content="Add" Command="{Binding AddCategoryCommand}" Margin="31,337,583,49"/>
-            <Button Content="Edit" Command="{Binding EditCategoryCommand}" CommandParameter="{Binding SelectedCategory}" Margin="307,337,307,49"/>
-            <Button Content="Delete" Command="{Binding DeleteCategoryCommand}" CommandParameter="{Binding SelectedCategory}" Margin="588,337,26,49"/>
-        </Grid>
+        <!-- DataGrid for displaying category records -->
+        <DataGrid x:Name="dgCategory" Grid.Row="3" AutoGenerateColumns="True" Margin="10" CanUserAddRows="False" SelectionChanged="dgCategory_SelectionChanged">
+           
+        </DataGrid>
     </Grid>
 </UserControl>
